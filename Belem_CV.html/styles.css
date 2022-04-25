@@ -1,0 +1,84 @@
+:root { 
+     background:#716d70;
+    font: "Cantarell";
+}
+/*
+*/
+ body {background-image: url( ./images/girasol2.jpg );
+    background-size: 1000px;
+}
+
+body { 
+    font-family: var(--font);
+    color: #1b1c1f;
+}
+
+header, section { 
+    width: 960px;
+    margin: auto;
+ }
+
+header {
+display: flex;
+ }
+
+/* para colocar uno a lado del otro */
+ section { 
+     display: flex;
+ }
+ article { 
+width: 60%;
+
+ }
+
+
+img {
+    width: 400px;
+    height:300px;
+    margin-right: 18px;
+ }
+
+
+
+
+
+ header, section { 
+    width: 960px;
+    margin:auto;
+    display: flex;
+ }
+ 
+ header { 
+ background-color: hsl(106, 92%, 57%) ;
+ padding-top: 20px;
+ padding-left: 20px;
+ }
+ 
+ ul { 
+     list-style-type: circle;
+ }
+ 
+ article {
+     width: 60%;
+  }
+ 
+ img {
+     width: 300px;
+     height: 200px;
+     margin: right 16px;
+  }
+ 
+  a, a:link, a:visited {
+      text-decoration: none;
+      color: #0a045c;
+   }
+ 
+   
+     
+ 
+
+
+
+
+
+
